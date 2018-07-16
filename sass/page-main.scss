@@ -1,0 +1,10 @@
+.page-main {
+  position: relative;
+  &::after {
+    content: url("../img/background-grey-two.png");
+    position: absolute;
+    top: 760px;
+    left: -489px;
+    z-index: -2;
+  }
+}

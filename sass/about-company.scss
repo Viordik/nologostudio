@@ -1,0 +1,41 @@
+.about-company {
+  display: flex;
+  margin-top: 50%;
+}
+
+.left {
+  &__h2 {
+    font-size: 30px;
+    color: #3a3c40;
+    padding-bottom: 134px;
+  }
+
+  &__text {
+    font-size: 17px;
+    // font-weight: bold;
+    color: #747780;
+    padding-bottom: 53px;
+    line-height: 30px;
+  }
+
+  &__word-web {
+    font-weight: 700;
+    color: #3a3c40;
+  }
+
+  &__word-store {
+    color: #cb003d;
+  }
+}
+
+.first {
+  padding-bottom: 0;
+}
+
+
+.right {
+  &__pencil {
+    position: relative;
+    top: -50px;
+  }
+}

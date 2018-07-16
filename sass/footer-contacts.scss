@@ -1,0 +1,76 @@
+.page-footer {
+  position: relative;
+}
+
+.footer-contacts {
+  position: absolute;
+  padding: 30px 185px 30px 33px;
+  display: flex;
+  bottom: 0;
+  background-color: #fff;
+  max-width: 1025px;
+
+  &__adress,
+  &__phone,
+  &__email,
+  &__skype {
+    display: flex;
+  }
+
+  &__phone,
+  &__skype {
+    padding-top: 20px;
+  }
+
+  &__adress {
+    padding-right: 130px;
+  }
+
+  &__text {
+    color: #3a3c40;
+    font-size: 13px;
+    font-weight: 700;
+
+    &--adress {
+      padding-right: 49px;
+
+    }
+
+    &--phone {
+      padding-right: 20px;
+
+    }
+
+    &--skype,
+    &--email {
+      padding-right: 12px;
+    }
+  }
+
+  &__text-two {
+    display: block;
+    color: #747780;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  &__text-email {
+    font-size: 13px;
+    color: #cb003d;
+  }
+
+  &__copy {
+    font-size: 13px;
+    color: #747780;
+    padding-top: 33px;
+  }
+}
+
+.phone {
+  padding-top: 18px;
+}
+
+
+.street {
+  padding-top: 13px;
+}

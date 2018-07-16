@@ -1,0 +1,14 @@
+.footer-map {
+  margin: 0 -469px;
+  position: relative;
+  line-height: 1;
+  margin-top: 80px;
+  z-index: -4;
+
+  &__marker {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 30%;
+  }
+}

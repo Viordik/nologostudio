@@ -1,0 +1,52 @@
+.content-up {
+  margin-top: 77px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: url("../img/background-grey.png");
+    z-index: -3;
+    top: -65px;
+    left: -489px;
+  }
+}
+
+.block-picture-mac {
+  position: absolute;
+  z-index: -2;
+  right: -78px;
+}
+
+.block {
+  position: relative;
+  top: 144px;
+
+  &__h1,
+  &__text {
+    font-size: 60px;
+    padding-right: 50%;
+    color: #fff;
+  }
+
+  &__text {
+    font-weight: 300;
+  }
+
+  &__price {
+    font-size: 100px;
+    color: #3a3c40;
+    font-weight: 700;
+  }
+
+  &__order {
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #cb003d;
+    border-radius: 30px;
+    padding: 10px 30px;
+  }
+}

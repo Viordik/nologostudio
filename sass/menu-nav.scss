@@ -1,0 +1,21 @@
+.menu-nav {
+  margin-top: 36px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+
+  &__item {
+    padding-right: 50px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #515359;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
